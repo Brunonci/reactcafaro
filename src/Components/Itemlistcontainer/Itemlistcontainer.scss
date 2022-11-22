@@ -1,0 +1,19 @@
+.itemlist__container {
+    height: 100vh;
+    background-color: #2f2f37;
+
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+
+    padding: 50px 350px ;
+
+    .itemlist__items {
+        color: rgb(115, 115, 115);
+        font-weight: 500;
+        font-size: 1.1rem;
+        margin: 1rem;
+        
+    }
+}
+

@@ -1,0 +1,58 @@
+@use '../Cartwidget/Cartwidget.scss';
+
+.navbar {
+    background-color: #2f2f37;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    gap: 20px;
+    .navbar__izquierda{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 50px;
+        
+        .navbar__logo {
+            margin-left: 10px;
+            a {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                text-decoration: none;
+                img {
+                    margin: 5px;
+                    width: 50px;
+                    background-color: #2f2f37;
+                }
+                p{
+                    color: white;
+                    font-size: 30px;
+                }
+            }
+        }
+        .navbar__menu {
+            display: flex;
+            flex-direction: row;
+            a {
+                color: white;
+                text-decoration: none;
+                padding: 20px;
+                font-size: 20px;
+
+            }
+            a:hover {
+                color: rgb(0, 0, 0);
+                background-color: #ffb600;
+            }
+        }
+    }
+    .navbar__derecha{
+        margin: 0;
+    }
+    
+}
+
+
