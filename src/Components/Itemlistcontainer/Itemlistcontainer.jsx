@@ -1,5 +1,6 @@
 import Proptypes from 'prop-types'
 
+
 const Itemlistcontainer = ({listas}) => {
     return (
         <div className="itemlist__container">
@@ -12,6 +13,7 @@ const Itemlistcontainer = ({listas}) => {
             })  
             }
         </div>
+        
     )
 }
 

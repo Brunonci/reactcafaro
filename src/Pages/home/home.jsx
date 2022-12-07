@@ -3,16 +3,16 @@ import Navbar from '../../Components/Navbar';
 import Tituloinicial from '../../Components/Tituloinicial';
 import Itemlistcontainer from '../../Components/Itemlistcontainer';
 
+import products from '../../mock/productos'
 
 const Initial = () => {
-    const Menus = ['Inicio', 'Divisas', 'Cuentas', 'Items', 'Boosteo'];
-    const Listas = ['OSRS','RS3','Albion', 'Lost Ark', 'New World'];
+    const productos = [products];
     return (
         <Layout>        
-            <Navbar menus={Menus}>
+            <Navbar >
             </Navbar>
             <Tituloinicial/>
-            <Itemlistcontainer listas={Listas}/>
+            <Itemlistcontainer listas={productos}/>
         </Layout>
     )
 }
