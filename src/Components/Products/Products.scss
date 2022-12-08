@@ -1,0 +1,18 @@
+@use '../ItemListContainer/ItemListContainer.scss';
+
+
+.productos__titulo{
+    background-color: #2f2f37;
+    color: white;
+    text-align: center;
+    
+
+    .productos{
+        padding-top: 25px;
+        background-color: #2f2f37;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+}

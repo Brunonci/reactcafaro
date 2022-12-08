@@ -11,7 +11,7 @@ export const products = [
     {
     id: 2,
     title: 'RuneScape 3 Gold',
-    image: 'https://static.wikia.nocookie.net/runescape2/images/a/a7/RuneScape_Companion_logo.png/revision/latest?cb=20170207223045',
+    image: 'https://i.ebayimg.com/images/g/FqIAAOSwoKtgbOeL/s-l500.jpg',
     descripcion:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500.',
     precio: 0.29,
     cantidad: 1,
@@ -48,7 +48,7 @@ export const products = [
     id: 6,
     title: 'World of Warcraft Gold',
     image: 'https://cdn.arstechnica.net/wp-content/uploads/2017/02/wowgold3-800x437.jpg',
-    descripcion:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500.',
+    descripcion:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard din text ever since the 1500.',
     precio:7.85,
     cantidad:1,
     categoria:'divisa'

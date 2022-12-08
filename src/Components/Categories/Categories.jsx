@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom"
-import { products } from "../../mock/productos"
+import { products } from "../../Mock/productos"
 import { ItemListContainer } from '../ItemListContainer/ItemListContainer'
 
 export const Categories = () => {
