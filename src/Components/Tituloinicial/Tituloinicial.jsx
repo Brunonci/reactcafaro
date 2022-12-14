@@ -44,7 +44,7 @@ const Tituloinicial = () => {
                     <img src="https://assetsdelivery.eldorado.gg/v7/_assets_/home-page/v1/support-icon.png?w=100&h=100&q=40" alt="" />
                     <div className="info__text">
                         <h2>Soporte en vivo 24/7</h2>
-                        <h3>El soporte de Eldorado.gg funciona las 24 horas. ¡Contáctenos en cualquier momento!</h3>
+                        <h3>El soporte de BrunoMarket.gg funciona las 24 horas. ¡Contáctenos en cualquier momento!</h3>
                     </div>
                 </div>
             </div>
