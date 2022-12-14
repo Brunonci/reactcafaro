@@ -7,18 +7,19 @@ export const Products = () => {
             <div className="productos__titulo">
                 <h1>Productos</h1>
                 <hr></hr>
-                <div className="productos">
-
-                
-                    {
-                        products.map((item) =>
-                            <div className="" key={item.id}>
-                                <ItemListContainer product={item} />
-                            </div>
-                        )
-                    }
                 </div>
+            <div className="productos">
+                {
+                    products.map((item) =>
+                        <div className="" key={item.id}>
+                            <ItemListContainer product={item} />
+                        </div>
+                    )
+                }
             </div>
+            
         </>
     )
 }
+
+export default Products;

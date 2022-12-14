@@ -1,0 +1,28 @@
+.footer{
+    background-color:#2F2F37 ;
+    color: white;
+    
+    
+    .footer__opciones{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        h6{
+            font-size: 15px;
+            cursor: pointer;
+            
+        }
+        img {
+            margin: 5px;
+            width: 50px;
+        }
+    }
+
+    .footer__copy{
+        padding: 15px;
+        text-align: center;
+    }
+}

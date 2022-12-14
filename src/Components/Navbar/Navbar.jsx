@@ -22,7 +22,7 @@ const Navbar = ({}) => {
                 <div className="navbar__menu">
                     <NavLink to="divisas" ><a>Divisas</a></NavLink>
                     <NavLink to="cuentas" ><a>Cuentas</a></NavLink>
-                    <NavLink to="iteam" ><a>Items</a></NavLink>
+                    <NavLink to="items" ><a>Items</a></NavLink>
                     <NavLink to="boosteo" ><a>Boosteo</a></NavLink>
                 </div>
             </div>
@@ -30,7 +30,9 @@ const Navbar = ({}) => {
                 <Cardwidget/>
                 {/* <Climaapi/>  */}
             </div>
+            
         </div>
+        
     )
 }
 

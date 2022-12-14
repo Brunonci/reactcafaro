@@ -40,8 +40,8 @@ export const climaapi = () => {
 
     return(
         <div class="clima">
-            <h6 id="ubi"></h6>
-            <h6 id="temp"></h6>
+            <h6 id="ubi">Buenos Aires</h6>
+            <h6 id="temp">20</h6>
         </div>
     )
 }
